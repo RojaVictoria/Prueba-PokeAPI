@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+<body>
+
+    <div class="column2">
+        <div class="card">
+            <h1>#$poke_n $poke_name</h1>
+                <img src=$poke_img width="150" height="150">
+            <div class="container">
+                <h4>$poke_etapa_previa</h4>
+                <h2>Estadísticas</h2>
+                <table>
+                    <tr>
+                       <td><h5>HP: $poke_hp</h5></td>
+                        <td><h5>Ataque: $poke_at</h5></td>
+                        <td><h5>Defensa: $poke_de</h5></td>
+                        <td><h5>Ataque Especial: $poke_ate</h5></td>
+                        <td><h5>Defensa Especial: $poke_dee</h5></td>
+                        <td><h5>Velocidad: $poke_ve</h5></td>
+                    </tr>
+                </table>
+
+                <h3><b>Tipo</b></h3>
+                    $span_tipo
+                <p>$poke_comentario</p>
+                <h3>Super efectivo contra:</h3>
+                        $span_supef_co
+                <h3>Débil contra:</h3>
+                        $span_deb_co
+                <h3>Resistente contra:</h3>
+                        $span_res_co
+                <h3>Poco eficaz contra</h3>
+                        $span_poef_co
+                <h3>Inmune contra:</h3>
+                        $span_inm_co
+                <h3>Ineficaz contra:</h3>
+                        $span_inef_co
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
